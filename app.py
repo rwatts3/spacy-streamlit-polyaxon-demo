@@ -2,7 +2,6 @@ import spacy_streamlit
 from pathlib import Path
 import srsly
 import importlib
-import random
 
 MODELS = srsly.read_json(Path(__file__).parent / "models.json")
 DEFAULT_MODEL = "en_core_web_sm"
