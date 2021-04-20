@@ -7,5 +7,5 @@ run:
   ports: [8501]
   rewritePath: true
   container:
-    image: polyaxon/spacy-streamlit-demo
+    image: polyaxon/polyaxon-examples:spacy-streamlit-demo
     command: [streamlit, run, app.py]

@@ -4,7 +4,7 @@ name: build-spacy-streamlit
 params:
   destination:
     connection: CONNECTION_NAME
-    value: spacy-streamlit-demo
+    value: polyaxon-examples:spacy-streamlit-demo
   context:
     value: "{{ globals.artifacts_path }}/spacy-streamlit-polyaxon-demo"
 runPatch:
