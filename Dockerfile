@@ -1,4 +1,4 @@
-FROM python:3.7.10-slim
+FROM arm64v8/python:3.7.10-slim
 
 LABEL maintainer="Polyaxon, Inc. <contact@polyaxon.com>"
 
