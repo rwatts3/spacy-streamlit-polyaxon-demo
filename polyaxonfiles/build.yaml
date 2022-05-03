@@ -10,5 +10,5 @@ params:
 runPatch:
   init:
     - git:
-        url: "https://github.com/polyaxon/spacy-streamlit-polyaxon-demo"
+        url: "https://github.com/rwatts3/spacy-streamlit-polyaxon-demo"
 hubRef: kaniko
